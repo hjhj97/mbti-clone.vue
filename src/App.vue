@@ -1,7 +1,12 @@
 <template>
-	<nav>
-		<router-link to="/">Home</router-link> |
-		<router-link to="/about">About</router-link>
-	</nav>
 	<router-view />
 </template>
+<style>
+	@import url('@/assets/css/reset.css');
+</style>
+
+<style>
+	body {
+		border: 2px solid black;
+	}
+</style>
